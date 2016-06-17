@@ -1,0 +1,13 @@
+var config = {}
+
+config.blackhole = {};
+config.crossbar = {};
+
+config.blackhole.uri = 'ws://127.0.0.1:5555';
+config.crossbar.host = 'http://localhost';
+config.crossbar.port = 8000;
+config.crossbar.username = "username";
+config.crossbar.password = "12341234";
+config.crossbar.account_name = "account name";
+
+module.exports = config;

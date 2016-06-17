@@ -1,0 +1,26 @@
+{
+    "name": "blackhole-client",
+    "version": "0.0.2",
+    "private": true,
+    "author": "Roman Galeev <jamhedd@gmail.com>",
+    "keywords": [
+        "websockets",
+        "kazoo",
+        "api"
+    ],
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jamhed/blackhole-client.git"
+    },
+    "dependencies": {
+        "crossbar": "https://github.com/macpie/crossbar-nodejs/tarball/master",
+        "ws": "latest"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.6"
+    }
+}
