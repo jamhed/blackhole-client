@@ -31,9 +31,9 @@ function writeCall(call) {
 					hangup_cause: call.hangup_cause
 				},
 				fields: {
-					billing: call.billing_seconds,
-					duration: call.duration_seconds,
-					ringing: call.ringing_seconds
+					billing: parseInt(call.billing_seconds),
+					duration: parseInt(call.duration_seconds),
+					ringing: parseInt(call.ringing_seconds)
 				},
 				timestamp: parseInt(call.timestamp) - 62167219200
 			}
