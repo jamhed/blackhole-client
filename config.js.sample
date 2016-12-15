@@ -2,6 +2,7 @@ var config = {}
 
 config.blackhole = {};
 config.crossbar = {};
+config.influxdb = 'http://influx.host';
 
 config.blackhole.uri = 'ws://127.0.0.1:5555';
 config.crossbar.host = 'http://localhost';
