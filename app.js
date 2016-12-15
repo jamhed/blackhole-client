@@ -87,7 +87,7 @@ function add_listeners(ws, acc, token) {
 
 function handle_data(Packet) {
 	ev = JSON.parse(Packet);
-	if (ev.data && ev.data.name == "CHANNEL_DESTROY") {
+	if (ev.data && ev.name == "CHANNEL_DESTROY") {
 		writeCall(ev.data);
 	} else {
 		console.log(ev);
